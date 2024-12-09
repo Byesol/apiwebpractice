@@ -1,5 +1,27 @@
 # API Documentation
 
+### 회원가입 엔드포인트
+
+회원가입 
+
+#### Request
+
+| URL          | Method |
+|--------------|--------|
+| `/users/signup` | POST |
+
+#### Request Body
+
+| Field | Type | Description |
+|-------|------|-------------|
+#### Responses
+
+| Status Code | Description |
+|-------------|-------------|
+| 201 | 201 |
+
+---
+
 ### 댓글 또는 답글 삭제
 
 댓글 또는 답글 삭제
@@ -813,83 +835,7 @@ jwt 토큰이 유효하면 200, 아니면 401 상태 코드 반환
 
 ---
 
-### 로그인 엔드포인트
 
-로그인 엔드포인트
 
-#### Request
 
-| URL          | Method |
-|--------------|--------|
-| `/users/login` | POST |
-
-#### Request Body
-
-| Field | Type | Description |
-|-------|------|-------------|
-#### Responses
-
-| Status Code | Description |
-|-------------|-------------|
-| 200 | 200 |
-
----
-
-### 로그아웃 엔드포인트
-
-로그아웃 엔드포인트
-
-#### Request
-
-| URL          | Method |
-|--------------|--------|
-| `/users/logout` | POST |
-
-#### Responses
-
-| Status Code | Description |
-|-------------|-------------|
-| 200 | 200 |
-
----
-
-### 현재 사용자 정보 조회 API
-
-현재 사용자 정보 조회 API
-
-#### Request
-
-| URL          | Method |
-|--------------|--------|
-| `/users/me` | GET |
-
-#### Responses
-
-| Status Code | Description |
-|-------------|-------------|
-| 200 | 200 |
-
----
-
-### 회원가입 엔드포인트
-
-회원가입 엔드포인트
-
-#### Request
-
-| URL          | Method |
-|--------------|--------|
-| `/users/signup` | POST |
-
-#### Request Body
-
-| Field | Type | Description |
-|-------|------|-------------|
-#### Responses
-
-| Status Code | Description |
-|-------------|-------------|
-| 201 | 201 |
-
----
 
